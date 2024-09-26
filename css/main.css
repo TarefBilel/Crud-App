@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+form{
+    padding: 10px 200px;
+}
+form .content{
+    display: flex;
+    flex-direction: column;
+}
+form .content input{
+    margin-top: 20px;
+    padding: 15px;
+    width: 700px;
+    background-color: #f9f9f9;
+}
+form .content input:focus{
+    outline: none;
+    border: none;
+}
+.content .sub{
+    margin-top: 30px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(11, 163, 209);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sub:hover{
+    font-size: 20px;
+}
+
+
+.table{
+    padding: 10px 200px;
+    margin-top: 50px;
+}
+.table table{
+    color: white;
+    width: 700px;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+.table thead tr{
+    background-color: green;
+}
+.table tr{
+    padding: 10px;
+}
+.table tr td{
+    padding: 15px;
+    text-align: center;
+    height: 25px;
+}
+.e{
+    background-color: red;
+    margin-right: 20px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
+.d{
+    background-color: rgba(46, 177, 168, 0.679);
+    margin-right: 20px;
+    width: 150px;
+    padding: 10px;
+    cursor: pointer;
+}
